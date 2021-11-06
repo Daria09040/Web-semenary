@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Task1</title>
+		<link rel="stylesheet" href="task1.css">
+	</head>
+	<body>
+		<h1> Отель "Элиот" </h1>
+		<form id="" action="#" method="POST">
+			<p>Поделитесь своими впечатлениями после посещегия нашего отеля</p>
+			<fieldset>
+                <Legend>Контактная информация</Legend>
+                <label for="name">Фамилия Имя <em>*</em></label>
+                <input id="name"  name= "name" placeholder="Иванов Иван" required="" type="text"> <br>
+                <label for="telephone">Номер телефона <em>*</em></label>
+                <input id="telephone"  name= "telephone" placeholder="916 111-11-11"  type="text"> <br>
+                <label for="email">Электронная почта <em>*</em></label>
+                <input id="email"  name= "email" type="email"> <br>
+            </fieldset>
+
+			<fieldset>
+				<legend></legend>
+
+                <p><b>Что вам понравилось?</b></p>
+				<input type="radio" value="pers" checked>
+				<label for="1">Вежливый персонал</label>
+				<br>
+				<input type="radio" value="comfort">
+				<label for="2">Комфортные номера</label>
+				<br>
+                <input type="radio" value="cleaning">
+				<label for="3">Качесто уборки</label>
+				<br>
+                <input type="radio" value="speed">
+				<label for="4">Скорось и качество обслужиния</label>
+				<br>
+                
+			</fieldset>
+
+            <fieldset>
+				<legend></legend>
+				<label for="favoriteСuisine">Вы посещанили наш ресторан?</label>
+				<select name="favoriteСuisine" id="favoriteСuisine">
+					<option value="yes">Да</option>
+					<option value="no">Нет</option>
+				</select>
+				<br>
+                
+                <legend></legend>
+				<label for="favoriteСuisine">Вам нет понравилось?</label>
+				<select name="favoriteСuisine" id="favoriteСuisine">
+					<option value="yes">Да, все было замечательно</option>
+                    <option value="yes">Да, но есть несколько недочетов</option>
+					<option value="no">Нет, мне не понравилось</option>
+				</select>
+				<br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Оценка нашего заведения</legend>
+				<p><b>Откуда вы узнали про наш отель?</b></p>
+				<textarea name="newdish" id="newdish" rows="3"></textarea>
+                
+				<p><b>Поставьте,пожалуйта, оценку нашему отелю</b></p>
+				<input type="radio" value="no" id="no" name="recommend" checked>
+				<label for="1">1</label>
+				<br>
+				<input type="radio" value="no" id="no"name="recommend">
+				<label for="2">2</label>
+				<br>
+                <input type="radio" value="no" id="no" name="recommend">
+				<label for="3">3</label>
+				<br>
+                <input type="radio" value="no" id="no" name="recommend">
+				<label for="4">4</label>
+				<br>
+                <input type="radio" value="no" id="no" name="recommend">
+				<label for="5">5</label>
+				<br>
+			</fieldset>
+			<div>
+				<input type="submit"  value="Отправить">
+			</div>
+		</form>
+	</body>
+</html>
